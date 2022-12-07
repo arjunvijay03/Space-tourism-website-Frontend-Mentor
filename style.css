@@ -27,7 +27,10 @@ body{
    
     height: 100vh;
 }
-
+h3{
+    animation-name: intro;
+    animation-duration: 1s;
+}
 header{
     animation-name: intro;
     animation-duration: 1s;
