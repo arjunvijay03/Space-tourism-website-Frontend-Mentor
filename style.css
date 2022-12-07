@@ -302,6 +302,15 @@ span{
     background: url(./assets/crew/background-crew-desktop.jpg)no-repeat center center/cover;
     height: auto;
 }
+#crew #nav-bar li:nth-child(3):after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 1%;
+    bottom: -1rem;
+}
 #crew-container{
     margin-top: 0;
     padding-top: 0;
@@ -355,6 +364,15 @@ span{
 #technology{
     background: url(./assets/technology/background-technology-desktop.jpg)no-repeat center center/cover;
     height: auto;
+}
+#technology #nav-bar li:nth-child(4):after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 1%;
+    bottom: -1rem;
 }
  #tech-description-cont{
     display: flex;
