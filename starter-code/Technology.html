@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="https://imageio.forbes.com/specials-images/imageserve//6296a459f150d611efd94145/0x0.jpg?format=jpg&width=1200">
+  
+  <title>Technology-Space tourism website | Frontend Mentor</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Barlow:wght@400;500&family=Bellefair&family=Big+Shoulders+Display:wght@600;700&family=Josefin+Sans:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Rubik:wght@400;500;700&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="technology">
+  <header class="responsive-navbar">
+    <div id="logo"><a href="./index.html"><img src="./assets/shared/logo.svg" alt=""></a></div>
+    <div id="nav-bar">
+        <img src="./assets/shared/icon-close.svg" id="close" alt="">
+        <ul>
+            <li><a href="./index.html">00 HOME</a></li>
+            <li><a href="./Destination.html">01 DESTINATION</a></li>
+            <li><a href="./Crew.html">02 CREW</a></li>
+            <li><a href="./Technology.html">03 TECHNOLOGY</a></li>
+        </ul>
+        
+    </div>
+    <img src="./assets/shared/icon-hamburger.svg" id="ham-burger" alt="">
+
+  </header>
+  <section>
+    <h3 id="tech-title"><span>03</span>SPACE LAUNCH 101</h3>
+    <div class="container" id="tech-container">
+      <div class="description" id="tech-description-cont">
+        <div id="tech-buttons">
+          <button class="tech-btn tech-btn-active">1</button>
+          <button class="tech-btn">2</button>
+          <button class="tech-btn">3</button>
+        </div>
+        <div id="tech-description">
+          <h3>THE TERMINOLOGY...</h3>
+          <h2 id="tech-name">LAUNCH VEHICLE</h2>
+          <p id="tech-description-para">A launch vehicle or carrier rocket is a rocket-propelled
+             vehicle used to carry a payload from Earth's surface to 
+             space, usually to Earth orbit or beyond. Our WEB-X carrier
+              rocket is the most powerful in operation. Standing 150 metres tall, 
+            it's quite an awe-inspiring sight on the launch pad!</p>
+        </div>
+      </div>
+      
+    
+      <div class="explore" id="tech-image">
+        <picture id="tech-img" >
+          <source id="tech-img-landscape"
+             media="(max-width: 1023px)"
+             srcset="./assets/technology/image-launch-vehicle-landscape.jpg">
+          
+          <img id="tech-img-portraite" 
+          src="./assets/technology/image-launch-vehicle-portrait.jpg" 
+          alt="">
+       </picture>
+      </div>
+    </div>
+  </section>
+
+</body>
+<script type="module" src="./main.js"></script>
+</html>
