@@ -104,7 +104,10 @@ header{
     opacity: .3;
     position: absolute;
     left: 1%;
-    bottom: -1rem;
+    bottom: -.5rem;
+
+
+    
 }
 
 
@@ -187,7 +190,7 @@ p{
     background-color: #fff;
     position: absolute;
     left: 1%;
-    bottom: -1rem;
+    bottom: -.5rem;
 }
 
 
@@ -309,7 +312,7 @@ span{
     background-color: #fff;
     position: absolute;
     left: 1%;
-    bottom: -1rem;
+    bottom: -.5rem;
 }
 #crew-container{
     margin-top: 0;
@@ -372,7 +375,7 @@ span{
     background-color: #fff;
     position: absolute;
     left: 1%;
-    bottom: -1rem;
+    bottom: -.5rem;
 }
  #tech-description-cont{
     display: flex;
@@ -580,6 +583,9 @@ body{
        display: initial;
        font-size: 1rem;
        margin-bottom: 30px;
+       position: absolute;
+       right: 20px;
+       
     }
     #nav-bar li{
         font-weight: normal;
@@ -589,11 +595,11 @@ body{
         display: initial;
     }
     .active #nav-bar{
-        height: 100vh;
+        height: 200vh;
         z-index: 9;
     }
     #home #nav-bar li:nth-child(1):after{
-        bottom: -.1rem;
+        bottom: -.5rem;
         left: 15%;
     }
     #home #nav-bar li:hover::after{
