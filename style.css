@@ -20,12 +20,12 @@ body{
     padding-top: 20px;
 }
 #home{
-    overflow: hidden;
+    overflow-x: hidden;
     width: 100%;
     background: url(./assets/home/background-home-desktop.jpg)no-repeat center center/cover;
    
    
-    height: 100vh;
+    height: auto;
 }
 h3{
     animation-name: intro;
@@ -94,7 +94,7 @@ header{
     background-color: #fff;
     position: absolute;
     left: 1%;
-    bottom: -1rem;
+    bottom: -.5rem;
 }
 #nav-bar li:hover::after{
     content: "";
@@ -125,7 +125,7 @@ header{
     flex-direction: column;
     padding: 2rem;
     justify-content: center;
-    /* padding-left: 150px; */
+    
     
 }
 
